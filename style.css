@@ -1,0 +1,236 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+}
+#acc{
+    position: relative;
+    left: 1200px;
+    bottom: 60px;
+    font-size: x-large;
+    font-family: 'Agbalumo';
+    font-size: 22px;
+    color: rgba(244, 9, 9, 0.69);
+    text-decoration: none;
+    
+}
+.topnav{
+    background:linear-gradient(90deg, #e2ac2e 2%, #f3e0a7 42%, #d89c23 76%, #f9e4a5);
+    overflow: hidden;
+}
+.topnav a{
+    float: left;
+    color: rgba(236, 9, 9, 0.758);
+    text-align:center;
+    padding: 8px 10px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Agbalumo';font-size: 22px;
+}
+.topnav a:hover{
+    background-color: rgba(255, 18, 18, 0.667);
+    color: rgb(241, 206, 6);
+}
+.cover{
+    position: relative;
+    top: 10px;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+    color: rgba(245, 7, 7, 0.771);
+    font-family: 'Carter One';
+    background:linear-gradient(90deg, #ebb332 2%, #f3e0a7 42%, #dda12a 76%, #f9e4a5);
+    overflow: hidden;
+}
+.image-category{
+    display: flex;
+    justify-content:center;
+    max-width: 800px;  
+    align-items: center;
+    margin: auto;
+    position: relative;
+    left: 80px;
+}
+.image-category img{
+    margin-right: 10px;
+}
+#image1{
+    position: relative;
+    top: 200px;
+    right: 330px;
+    font-family: 'Carter One';
+    color: rgba(245, 7, 7, 0.771);
+    font-size: 25px;
+}
+#image2{
+    position: relative;
+    top: 200px;
+    right: 200px;
+    font-family: 'Carter One';
+    color: rgba(245, 7, 7, 0.771);
+    font-size: 25px;
+}
+#image3{
+    position: relative;
+    top: 200px;
+    right: 160px;
+    font-family: 'Carter One';
+    color: rgba(245, 7, 7, 0.771);
+    font-size: 25px;
+    white-space: nowrap;
+}
+.image-category #img1{
+    position: relative;
+    right: 90px;
+    transition: transform .2s;
+}
+.image-category #img2{
+    position: relative;
+    right: 50px;
+    transition: transform .2s;
+}
+.image-category #img3{
+    position: relative;
+    left: 80px;
+    transition: transform .2s;
+}
+.image-category #img1:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.image-category #img2:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+.image-category #img3:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.details #truffles{
+    text-align: center;
+    position: relative;
+    bottom: 20px;
+    right: 500px;
+    font-family: 'Akaya Kanadaka';
+    font-size: larger;
+    
+}
+.details #bars{
+    text-align: center;
+    font-family: 'Akaya Kanadaka';
+    size: 20px;
+    position: relative;
+    bottom: 107px;
+    font-size: larger;
+}
+.details #gift-pack{
+    text-align: center;
+    font-family: 'Akaya Kanadaka';
+    size: 20px;
+    font-size: larger;
+    margin-left: 70%;
+    position: absolute;
+    bottom: -627px;       
+}
+.explore {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    position: relative;
+    left: 200px;
+    bottom: 170px;
+
+}
+.explore p{
+    font-family: 'Carter One';
+    color: rgba(245, 7, 7, 0.771);
+}
+.explore #explore1{
+    display: inline-block;
+    width: 70px;
+    height: 20px;
+    padding: 5px;
+    border: 2px solid rgba(245, 7, 7, 0.771);
+    background-color: white;
+    position: relative;
+    top: 40px;
+    border-radius: 25px;
+}
+.explore #explore2{
+    display: inline-block;
+    width: 70px;
+    height: 20px;
+    padding: 5px;
+    border: 2px solid rgba(245, 7, 7, 0.771);
+    background-color: white;
+    margin-left: 50%;
+    position: relative;
+    top: 45px;
+    border-radius: 25px;
+}
+.explore #explore3{
+    display: inline-block;
+    width: 70px;
+    height: 20px;
+    padding: 5px;
+    border: 2px solid rgba(245, 7, 7, 0.771);
+    background-color: white;
+    position: relative;
+    left: 85px;
+    bottom: -45px;
+    border-radius: 25px;
+}
+.explore #explore1:hover{
+    background-color: rgb(238, 26, 83);
+    color: rgb(210, 210, 48);
+    transition: 0.3s;
+}
+.explore #explore2:hover{
+    background-color: rgb(238, 26, 83);
+    color: rgb(210, 210, 48);
+    transition: 0.3s;
+}
+.explore #explore3:hover{
+    background-color: rgb(238, 26, 83);
+    color: rgb(210, 210, 48);
+    transition: 0.3s;
+}
+.cover2{
+    position: relative;
+    bottom: 40px;
+}
+#follow{
+    text-align: center;
+    font-size: 30px;
+    color: rgba(245, 7, 7, 0.771);
+    font-family: 'Carter One';
+    background:linear-gradient(90deg, #d19916 2%, #f3e0a7 42%, #e8a51f 76%, #f9e4a5);
+    overflow: hidden;
+}
+.footer{
+    padding: 20px;
+    text-align: center;
+}
+#img15{
+    position: relative;
+    left: 43%;
+}
+.footer-list {
+    display: flex;
+    justify-content: space-between; 
+}
+.footer-list p {
+    margin: 0 100px;
+    font-family: 'Akaya Kanadaka';
+    font-weight: bold;
+    text-decoration: none;
+}
+.footer-list a:hover {
+    color: rgba(245, 7, 7, 0.771);
+    text-decoration: none;
+}
+footer p{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
